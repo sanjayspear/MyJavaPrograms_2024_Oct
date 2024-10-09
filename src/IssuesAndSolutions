@@ -1,0 +1,54 @@
+ISSUE: C:\Users\Administrator>java -version
+openjdk version "21.0.3" 2024-04-16 LTS
+OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.3+9 (build 21.0.3+9-LTS, mixed mode, sharing)
+
+SOLUTION:
+
+The output you provided shows that you have OpenJDK 21.0.3 installed, which is the Temurin distribution of OpenJDK 21. This confirms that Java 21 is installed and available on your system.
+
+To fix the issue in Eclipse where it's unable to find JavaSE-21, follow these steps:
+	1. Add JDK 21 to Eclipse (if not already done)
+		Open Eclipse Preferences:
+
+		Go to Window → Preferences (on macOS: Eclipse → Preferences).
+		Navigate to Installed JREs:
+
+		In the Preferences window, expand Java → Installed JREs.
+			Add JDK 21:
+
+		Click Add....
+Select Standard VM and click Next.
+In the JRE home field, browse to the directory where you installed OpenJDK 21 (usually something like C:\Program Files\Eclipse Adoptium\jdk-21 or where Temurin was installed).
+Click Finish.
+	2. Set JDK 21 as the Default JRE (Optional):
+	You can check the box next to JDK 21 to make it the default JRE for your projects.
+
+3. Update Your Project's Build Path
+Now, let's ensure your project is referencing the correct JDK:
+
+Right-click on your project in Eclipse’s Project Explorer.
+	1. Select Build Path → Configure Build Path.
+	2. In the Libraries tab:
+		Look for the entry related to JavaSE-21 or a missing JRE entry. Select it and click Remove.
+	3. Add JRE Library:
+		Click Add Library..., choose JRE System Library, and click Next.
+	4. Select Workspace default JRE (which should now be set to Java 21) or select Installed JREs and choose JDK 21 if 	   available.
+	5. Click Finish, then Apply and Close.
+	6. Ensure the Compiler Compliance Level is Set Correctly
+	7. Right-click your project and select Properties.
+	8. Go to Java Compiler.
+		Ensure the Compiler compliance level is set to 21 (or another version you prefer if you need to compile to 		a different target).
+	9.  Click Apply and OK.
+	10. Restart Eclipse
+	11. Finally, restart Eclipse to ensure that all the changes take effect properly.
+
+By following these steps, Eclipse should now properly recognize JDK 21 and resolve the missing JRE issue. Let me know if you encounter any further issues!
+
+QUETION: is there any command to find JDK path?
+
+ANSWER: where java
+
+
+
+
