@@ -113,4 +113,48 @@ Write a Java program to check if a string contains balanced parentheses.
 Write a Java program to sort the characters in a string based on their frequency.
 Write a Java program to check if a string contains only alphanumeric characters.
 Write a Java program to reverse only the digits in a string while keeping the other characters unchanged.
-These questions cover a variety of topics in programming such as string manipulation, array handling, matrix operations, and logical problem-solving. They are ideal for practice or coding interviews.
+These questions cover a variety of topics in programming such as string manipulation, array handling, matrix operations, 
+and logical problem-solving. They are ideal for practice or coding interviews.
+
+Here is a list of programming questions corresponding to each of the different approaches for 
+reversing a string:
+
+1. Using a for Loop (Manual Character Swapping)
+Question:
+Write a Java program to reverse a string using a for loop. Do not use any built-in reverse methods.
+
+2. Using StringBuilder or StringBuffer (Built-in Reverse Method)
+Question:
+Write a Java program to reverse a string using StringBuilder or StringBuffer. Use the built-in reverse() method.
+
+3. Using Recursion
+Question:
+Write a recursive Java program to reverse a string. The program should call a method recursively to reverse the characters in the string.
+
+4. Using char[] Array (Swapping Elements)
+Question:
+Write a Java program to reverse a string by converting it to a char[] array, then manually swapping the elements of the array.
+
+5. Using Streams (Java 8+)
+Question:
+Write a Java program to reverse a string using Java 8 streams. The program should use streams to reverse the characters of the string.
+
+6. Using StringJoiner and split()
+Question:
+Write a Java program to reverse a string by splitting it into individual characters and using StringJoiner to join them in reverse order.
+
+7. Using Stack Data Structure
+Question:
+Write a Java program to reverse a string using a stack. The program should push all characters onto the stack and then pop them off to reverse the string.
+
+8. Using XOR Swap Algorithm
+Question:
+Write a Java program to reverse a string using the XOR swap algorithm. Convert the string into a char[] array, then use XOR swapping to reverse the characters in the array.
+
+9. Using Apache Commons StringUtils.reverse()
+Question:
+Write a Java program to reverse a string using the Apache Commons StringUtils.reverse() method. Import the required library and use the built-in method to reverse the string.
+
+10. Using Java Deque
+Question:
+Write a Java program to reverse a string using a Deque (double-ended queue). Add each character to the deque, then remove them from the end to reverse the string.
