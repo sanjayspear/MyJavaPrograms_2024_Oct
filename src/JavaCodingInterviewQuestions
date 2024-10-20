@@ -1,0 +1,116 @@
+Here are 100 programming questions related to strings, arrays, and similar concepts, grouped into 
+different categories.
+
+String Manipulation
+
+Write a Java program to reverse a string without using the built-in reverse function.
+Write a Java program to check if a string is a palindrome.
+Write a Java program to count the number of vowels and consonants in a string.
+Write a Java program to find the longest word in a given sentence.
+Write a Java program to remove all white spaces from a string.
+Write a Java program to capitalize the first letter of each word in a string.
+Write a Java program to find all permutations of a given string.
+Write a Java program to count occurrences of a substring in a string.
+Write a Java program to replace all occurrences of a character in a string with another character.
+Write a Java program to find the first repeating character in a string.
+Write a Java program to find the longest substring without repeating characters.
+Write a Java program to find the length of the shortest word in a sentence.
+Write a Java program to check if a string is a valid binary string (contains only 0s and 1s).
+Write a Java program to convert a string to title case (capitalize first letter of each word).
+Write a Java program to reverse words in a string but keep the word order intact.
+Write a Java program to find the longest common prefix in an array of strings.
+Write a Java program to remove duplicate characters from a string.
+Write a Java program to remove all punctuation from a string.
+Write a Java program to check if a string contains only digits.
+Write a Java program to count the number of words in a string.
+Write a Java program to find the first non-repeating word in a sentence.
+Write a Java program to reverse vowels in a string.
+Write a Java program to replace spaces with hyphens in a string.
+Write a Java program to find all unique characters in a string.
+Write a Java program to check if two strings are rotations of each other.
+
+Array Manipulation
+
+Write a Java program to find the maximum element in an array.
+Write a Java program to find the minimum element in an array.
+Write a Java program to reverse an array in place.
+Write a Java program to find the second largest element in an array.
+Write a Java program to find the sum of all elements in an array.
+Write a Java program to remove duplicate elements from an array.
+Write a Java program to merge two sorted arrays.
+Write a Java program to find the intersection of two arrays.
+Write a Java program to find the union of two arrays.
+Write a Java program to shift all zeroes to the end of an array.
+Write a Java program to rotate an array to the left by k positions.
+Write a Java program to rotate an array to the right by k positions.
+Write a Java program to find all pairs of elements in an array whose sum is equal to a given number.
+Write a Java program to find the missing number in an array of integers from 1 to n.
+Write a Java program to find the duplicate element in an array of integers where one number is repeated.
+Write a Java program to count the frequency of elements in an array.
+Write a Java program to find the maximum difference between two elements in an array.
+Write a Java program to find the smallest and largest number in an unsorted array.
+Write a Java program to move all negative numbers to one side of an array.
+Write a Java program to rearrange an array such that arr[i] becomes arr[arr[i]].
+Write a Java program to find the subarray with the maximum sum (Kadane's Algorithm).
+Write a Java program to check if an array is sorted in ascending order.
+Write a Java program to find the median of two sorted arrays.
+Write a Java program to find the majority element in an array (element that appears more than n/2 times).
+Write a Java program to count inversions in an array (number of pairs where arr[i] > arr[j] for i < j).
+
+Matrix Manipulation
+
+Write a Java program to find the transpose of a matrix.
+Write a Java program to check if a matrix is symmetric.
+Write a Java program to multiply two matrices.
+Write a Java program to find the sum of all elements in a matrix.
+Write a Java program to rotate a matrix by 90 degrees clockwise.
+Write a Java program to rotate a matrix by 90 degrees counterclockwise.
+Write a Java program to check if a matrix is an identity matrix.
+Write a Java program to find the determinant of a matrix.
+Write a Java program to find the maximum element in each row of a matrix.
+Write a Java program to print the boundary elements of a matrix.
+Write a Java program to search for an element in a sorted matrix.
+Write a Java program to find the row with the maximum number of 1s in a binary matrix.
+Write a Java program to check if two matrices are equal.
+Write a Java program to find the trace of a matrix (sum of diagonal elements).
+Write a Java program to find the smallest element in each row of a matrix.
+
+String and Array Combination
+
+Write a Java program to convert a string to a character array and vice versa.
+Write a Java program to find all anagrams of a string in an array of strings.
+Write a Java program to sort an array of strings by their lengths.
+Write a Java program to find the longest palindrome in an array of strings.
+Write a Java program to sort a string in alphabetical order.
+Write a Java program to check if an array of strings is sorted lexicographically.
+Write a Java program to check if a string can be rearranged to form a palindrome.
+Write a Java program to concatenate an array of strings into a single string.
+Write a Java program to split a string into an array of substrings based on a delimiter.
+Write a Java program to find the longest increasing subsequence in a string of characters.
+Miscellaneous Questions
+Write a Java program to count the number of palindromic substrings in a string.
+Write a Java program to remove all adjacent duplicates from a string.
+Write a Java program to check if a string contains only unique characters.
+Write a Java program to compress a string (e.g., "aaabb" becomes "a3b2").
+Write a Java program to expand a compressed string (e.g., "a3b2" becomes "aaabb").
+Write a Java program to check if a string is a valid IPv4 address.
+Write a Java program to convert an integer array into a single integer.
+Write a Java program to remove all non-numeric characters from a string.
+Write a Java program to find the longest sequence of consecutive numbers in an array.
+Write a Java program to reverse the order of elements in an array of strings.
+Write a Java program to find the longest palindrome in a string.
+Write a Java program to check if a string is a valid email address.
+Write a Java program to calculate the frequency of digits in a string.
+Write a Java program to convert a string to a zigzag pattern.
+Write a Java program to merge two strings alternatively (e.g., "abc" and "123" becomes "a1b2c3").
+Write a Java program to count the number of substrings with equal number of 0s and 1s.
+Write a Java program to replace the last occurrence of a substring in a string.
+Write a Java program to remove characters from the first string that are present in the second string.
+Write a Java program to check if a string is a valid hexadecimal number.
+Write a Java program to find the first missing positive integer in an array.
+Write a Java program to rearrange characters in a string such that no two adjacent characters are the same.
+Write a Java program to check if a string contains balanced parentheses.
+Write a Java program to sort the characters in a string based on their frequency.
+Write a Java program to check if a string contains only alphanumeric characters.
+Write a Java program to reverse only the digits in a string while keeping the other characters unchanged.
+These questions cover a variety of topics in programming such as string manipulation, array handling, matrix operations, and logical problem-solving. They are ideal for practice or coding interviews.
