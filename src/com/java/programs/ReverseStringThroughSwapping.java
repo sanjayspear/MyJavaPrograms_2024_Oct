@@ -9,7 +9,7 @@ package com.java.programs;
 		4. Continue swapping until the two pointers meet.
  * */
 
-public class ReverseString3 {
+public class ReverseStringThroughSwapping {
 
 	public static void main(String[] args) {
 		String s = "!@#Sanjay";
@@ -27,7 +27,7 @@ public class ReverseString3 {
 				left++;
 			}
 			// Skip non-alphabetic characters on the right
-			else if (Character.isLetter(arr[right])) {
+			else if (!Character.isLetter(arr[right])) {
 				right--;
 			}
 			// Both arr[left] and arr[right] are letters, swap them

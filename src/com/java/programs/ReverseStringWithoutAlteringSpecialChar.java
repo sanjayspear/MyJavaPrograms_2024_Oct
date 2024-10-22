@@ -3,7 +3,7 @@ package com.java.programs;
 public class ReverseStringWithoutAlteringSpecialChar {
 
     public static void main(String[] args) {
-        String s = "Sha$$rath";
+        String s = "@#$Sanjay";
         String rev = "";
         
         // To store the letters in reverse order
