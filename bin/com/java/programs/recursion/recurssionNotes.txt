@@ -1,0 +1,3 @@
+============Recursion=============
+
+Recursion: When a function call itself until a specified condition met (i.e, Base Condition).
