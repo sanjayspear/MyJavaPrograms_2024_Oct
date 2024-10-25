@@ -12,6 +12,7 @@ public class Recursion2 {
 		System.out.println(name);
 		m++;
 		printName(m, n, name);
+		
 	}
 
 	public static void main(String[] args) {
