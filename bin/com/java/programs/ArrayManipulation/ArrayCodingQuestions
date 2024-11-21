@@ -1,0 +1,125 @@
+Here’s a list of 10 array manipulation-related coding interview questions. These are commonly asked 
+in technical interviews and cover various levels of difficulty:
+
+
+1. Find Missing Numbers in an Array
+Problem:
+Given an array of integers from 1 to n with some numbers missing, find the missing numbers.
+Example Input: [1, 3, 4, 6]
+Example Output: [2, 5]
+
+2. Find the Duplicate Number in an Array
+Problem:
+Given an array of integers where some elements appear twice and others appear once, find a duplicate number without using extra space.
+Example Input: [4, 3, 2, 7, 8, 2, 3, 1]
+Example Output: [2, 3]
+
+3. Rotate an Array
+Problem:
+Rotate an array to the right by k steps in-place.
+Example Input: [1, 2, 3, 4, 5, 6, 7], k = 3
+Example Output: [5, 6, 7, 1, 2, 3, 4]
+
+4. Merge Two Sorted Arrays
+Problem:
+Merge two sorted arrays into one sorted array.
+Example Input: [1, 3, 5] and [2, 4, 6]
+Example Output: [1, 2, 3, 4, 5, 6]
+
+5. Find the Maximum Product of Two Numbers
+Problem:
+Find the maximum product that can be obtained from two numbers in the array.
+Example Input: [1, 2, 3, 4]
+Example Output: 12 (from 3 * 4)
+
+6. Find the Longest Consecutive Sequence
+Problem:
+Find the length of the longest consecutive sequence in an unsorted array.
+Example Input: [100, 4, 200, 1, 3, 2]
+Example Output: 4 (sequence is [1, 2, 3, 4])
+
+7. Rearrange an Array Alternately
+Problem:
+Given a sorted array, rearrange it in alternating max/min form.
+Example Input: [1, 2, 3, 4, 5, 6]
+Example Output: [6, 1, 5, 2, 4, 3]
+
+8. Find the Subarray with the Maximum Sum (Kadane’s Algorithm)
+Problem:
+Find the contiguous subarray within an array that has the largest sum.
+Example Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Example Output: 6 (from [4, -1, 2, 1])
+
+9. Sort an Array of 0s, 1s, and 2s
+Problem:
+Sort an array containing only 0, 1, and 2 without using extra space or sorting algorithms.
+Example Input: [0, 1, 2, 1, 0, 1, 2]
+Example Output: [0, 0, 1, 1, 1, 2, 2]
+
+10. Find the First Non-Repeating Element
+Problem:
+Find the first non-repeating element in an array.
+Example Input: [9, 4, 9, 6, 7, 4]
+Example Output: 6
+
+11. Find the Second Largest Element in an Array
+Problem:
+Find the second largest element in an array without sorting the array.
+Example Input: [10, 5, 20, 8]
+Example Output: 10
+
+12. Count Inversions in an Array
+Problem:
+An inversion is when a pair (i, j) satisfies i < j and arr[i] > arr[j]. Count the number of inversions in the array.
+Example Input: [2, 4, 1, 3, 5]
+Example Output: 3
+
+13. Rearrange an Array to Place Negative Numbers Before Positive Numbers
+Problem:
+Rearrange an array such that all negative numbers appear before positive numbers while maintaining their relative order.
+Example Input: [1, -2, 3, -4, 5]
+Example Output: [-2, -4, 1, 3, 5]
+
+14. Move All Zeroes to the End of the Array
+Problem:
+Move all zeroes to the end of the array while maintaining the relative order of the other elements.
+Example Input: [0, 1, 0, 3, 12]
+Example Output: [1, 3, 12, 0, 0]
+
+15. Find the Majority Element in an Array
+Problem:
+Find the element that appears more than n/2 times in an array of size n.
+Example Input: [3, 3, 4, 2, 3, 3, 3]
+Example Output: 3
+
+16. Find the Pair with the Closest Sum to Zero
+Problem:
+Find a pair of numbers in the array whose sum is closest to zero.
+Example Input: [-8, 4, 5, -10, 3]
+Example Output: [-8, 5]
+
+17. Find All Subarrays with a Given Sum
+Problem:
+Find all subarrays in the array that sum up to a given value.
+Example Input: [1, 2, 3, 7, 5], sum = 12
+Example Output: [2, 3, 7]
+
+18. Find the Smallest Subarray with a Given Sum
+Problem:
+Find the smallest subarray (contiguous) whose sum is greater than or equal to a given value.
+Example Input: [2, 3, 1, 2, 4, 3], sum = 7
+Example Output: [4, 3]
+
+19. Check if an Array is a Subarray of Another
+Problem:
+Determine if one array is a subarray of another array.
+Example Input:
+Array 1: [1, 2, 3, 4]
+Array 2: [2, 3]
+Example Output: true
+
+20. Rearrange Array Elements to Form the Largest Number
+Problem:
+Given an array of numbers, arrange them to form the largest number possible.
+Example Input: [54, 546, 548, 60]
+Example Output: "6054854654"

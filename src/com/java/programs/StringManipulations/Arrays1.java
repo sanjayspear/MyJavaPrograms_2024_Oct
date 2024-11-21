@@ -21,3 +21,19 @@ public class Arrays1 {
 
 //Note: From step number 13 if you do not convert from array to string then simply prints its 
 //memory address, not the actual contents of the array.
+
+/* 
+ * In Java, when you try to print an array directly (e.g., System.out.println(arrayName);), 
+ * it does not print the actual contents of the array. Instead, it prints the memory address
+ * (reference) of the array object in the heap (represented as something like 
+ * [Ljava.lang.String;@<hashcode>). This behavior happens because arrays do not override 
+ * the toString() method from the Object class, which is what gets called by System.out.println().
+ * 
+ *  If you want to print the contents of the array, you need to use Arrays.toString()
+ *  for a one-dimensional array. For example:
+ *  
+ *  System.out.println(Arrays.toString(words));
+
+*/
+
+

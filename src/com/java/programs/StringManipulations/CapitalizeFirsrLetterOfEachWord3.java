@@ -1,6 +1,6 @@
 package com.java.programs.StringManipulations;
 
-public class Practice {
+public class CapitalizeFirsrLetterOfEachWord3 {
 
 	public static void main(String[] args) {
 		String str = "The only way to do great work is to love what you do.";
@@ -13,4 +13,5 @@ public class Practice {
 		}
 		System.out.println(result);
 	}
+
 }

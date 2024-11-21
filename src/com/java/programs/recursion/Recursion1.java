@@ -24,6 +24,13 @@ public class Recursion1 {
     }
 }
 
+// in this program, the printing happens during the recursion phase, not the unwinding phase. 
+//That's why the output is in normal order (1 to 10).
+
+//If you want the numbers to be printed in reverse order, you need to move the printing logic 
+//after the recursive call.
+
+
 /*
  * The program defines a recursive method printNumber(int num) that prints numbers from 1 up to the 
  * specified num using a static variable counter. It checks if counter exceeds num to stop recursion.
